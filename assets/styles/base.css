@@ -17,29 +17,13 @@ body {
 	box-sizing: border-box;
 }
 
-a {
-	text-decoration: none;
+.btn {
+	width: 250px;
+	height: 150px;
+	font-size: 40px;
 }
 
-h1 {
-    font-size: 80px;
-    margin-bottom: 8px;
+input.-error {
+	border-color: red;
 }
 
-h3 {
-    font-size: 60px;
-    margin-bottom: 30px;
-}
-
-b {
-    font-size: 18px;
-    margin-bottom: 16px;
-}
-
-.avatar {
-    width: 200px;
-    height: 200px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
