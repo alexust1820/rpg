@@ -24,18 +24,6 @@ function collect1() {
 	}
 };
 
-document.getElementById('js-button_3').onclick = collect2;
-function collect2() {
-	array[2].name = prompt('Введите имя');
-	array[2].age = +prompt('Введите возраст');
-	if (array[2].age < 7 || !array[2].age) {
-		alert('Nononnonononononono');
-		array[2].age = +prompt('Введите возраст');
-	} else {
-		console.log(array[2]);
-	}
-};
-
 document.getElementById('js-button_4').onclick = collect3;
 function collect3() {
 	array[3].name = prompt('Введите имя');
@@ -45,5 +33,17 @@ function collect3() {
 		array[3].age = +prompt('Введите возраст');
 	} else {
 		console.log(array[3]);
+	}
+};
+
+document.getElementById('js-button_3').onclick = collect2;
+function collect2() {
+	array[2].name = prompt('Введите имя');
+	array[2].age = +prompt('Введите возраст');
+	if (array[2].age < 7 || !array[2].age) {
+		alert('Nononnonononononono');
+		array[2].age = +prompt('Введите возраст');
+	} else {
+		console.log(array[2]);
 	}
 };
